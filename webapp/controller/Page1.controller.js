@@ -13,6 +13,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 
 			if (oEvent.mParameters.data.context) {
 				this.sContext = oEvent.mParameters.data.context;
+				//
 
 			} else {
 				if (this.getOwnerComponent().getComponentData()) {
